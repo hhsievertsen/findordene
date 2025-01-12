@@ -1,0 +1,179 @@
+/* Globals */
+* {
+      touch-action: manipulation;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+p {
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -o-user-select: text;
+    user-select: text;
+}
+mark.red {
+    color:#FF0000 ;
+    background: none;
+}
+.disable-dbl-tap-zoom {
+  touch-action: manipulation;
+}
+body{
+		touch-action: none; 
+	 touch-action: pan-x pan-y;
+	 background-color: #f2e1b3;
+		text-align: center;
+		overflow: hidden;
+		margin: auto;
+		width: 98vw;
+
+}
+,
+a{
+	text-decoration: none;
+	color: black;
+}
+section{
+	padding: 0px;
+	max-width: 350px;
+	margin: auto;
+}
+.footer_buttons{
+	border: none;
+	background-color: #f2e1b3;
+	font-size: 16px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 14px;
+	border-radius: 5px;
+	color: #4CAF50;
+	font-family: Lucida Sans Unicode, sans-serif;
+}
+
+
+/* Header */
+header h1{
+	font-size: 26px;
+	font-family: 'Architects Daughter';
+	padding: 0px;
+	margin-bottom:  0px;
+}
+
+header #region_gameprogress{
+	font-size: 18px;
+	font-family: 'Architects Daughter';
+	
+	padding: 0px;	
+	margin-top: 0px;
+}
+header {
+	height: 14vh;
+}
+
+/* Footer */
+footer {
+	height: 10vh;
+}
+
+/* Text region */
+
+#region_maintext{
+	margin: auto;
+	height: 25vh;
+	width: 85%;
+	text-align: center;
+	padding-top: 5vh;
+	padding-bottom: 15px;
+	font-size: 35px;
+	font-family: Lucida Sans Unicode, sans-serif;
+}
+
+#region_maintext button{
+	background-color: #4CAF50; 
+	border: none;
+	color: black;
+	font-size: 20px;
+	height: 30px;
+	text-align: center;
+	margin-left: 2px;
+	margin-right: 2px;
+	border-radius: 10px;
+	padding: 0px;
+	width: 95px;
+	font-family: Lucida Sans Unicode, sans-serif;
+
+}
+
+/* Letter buttons */
+
+#region_letters{
+	text-align: center;
+	margin: auto;
+	height: 22vh;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	max-width: 295px;
+	overflow: hidden;
+}
+#region_letters button{
+	font-size:  40px; 
+	background-color:  #4CAF50;
+	border-radius:  40px; 
+	border : none; 
+	margin: 5px;
+	font-family: Lucida Sans Unicode, sans-serif;
+	width: 60px;
+	height: 60px;
+	padding: 0em;
+	color: black;
+
+}
+
+
+/* about text, words guessed, words yesterday */
+.abouttext{
+	height: 56vh;
+}
+.backbuttonregion{
+	text-align: center;
+}
+
+
+/* Main buttons */
+#region_buttons{
+	padding: 0px;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+	height: 8vh;
+	margin: auto;
+	overflow: hidden;
+}
+
+#region_buttons button{
+	background-color: #4CAF50; 
+	border: none;
+	color: black;
+	font-size: 25px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	text-align: center;
+	margin-left: 2px;
+	margin-right: 2px;
+	border-radius: 10px;
+	width: 95px;
+	height: 45px;
+	font-family: Lucida Sans Unicode, sans-serif;
+}
+
+#region_backbutton {
+	text-align: center;
+}
+

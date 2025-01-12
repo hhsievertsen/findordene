@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Header -->
+<head>
+	<title>findordene</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="author" content="Hans Henrik Sievertsen">
+	<!--Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap" rel="stylesheet">
+
+	<!--CSS   -->
+	<link rel="stylesheet" href="./css/mycssfile.css">
+	<!--Javascript -->
+	<script language="JavaScript" src="js/jmygames.js"></script>
+</head>
+
+<body >
+	<header>
+	<!--Header: fixed-->	
+		<!--Level buttons -->	
+			<div id="levelbuttons">
+				<button type="button" onclick="change_game('easy')"  id="easy" class="footer_buttons" style='color:black'>Let</button>
+				<button type="button" onclick="change_game('hard')"  id="hard" class="footer_buttons" style='color:#4CAF50'>Svær</button>
+			</div>	
+		<h1>Kan du finde alle ord?</h1>
+		<p id="region_gameprogress"></p>
+	</header>
+	<!--Text field: here is where words are built and messages provided-->	
+	<section>
+		<div id="region_maintext"> </div>
+	</section>
+	<!--Button field: here is where the main buttons are placeed -->				
+	<section>
+			<!--Letter buttons -->	
+			<div id="region_letters">			</div>
+			<!--Action buttons -->	
+			<div id="region_buttons">
+				<button type="button" onclick="slet()" class="nav_buttons">Slet</button>
+				<button type="button" onclick="rotate_buttons()" class="nav_buttons" >&#x21bb;</button>
+				<button type="button" onclick="check_word()" class="nav_buttons">Prøv</button>
+			</div>
+
+	</section>
+	<!--Bottom area: fixed-->	
+	<footer>
+			<hr color="#4CAF50" width="300wh">
+				<button type="button" onclick="show_todays_words()" class="footer_buttons">Gættede ord</button>
+				<button type="button" onclick="show_yesterdays_words()" class="footer_buttons">Ordene i går</button>
+				<button type="button" onclick="show_about()" class="footer_buttons">Om spillet</button>
+	</footer>
+</body>
+
+</html>
