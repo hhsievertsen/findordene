@@ -245,7 +245,7 @@ function change_game(newlevel){
 				var tekst="";
 				// loop over words and create links
 				for (var i = 0; i < arrayLength; i++) {
-					tekst=tekst+" <a href='https://dsn.dk/soegning/?soegeord="+guessedwords_sorted[i]+"' target='_blank' style='color:black;text-decoration:none;'>"+guessedwords_sorted[i]+'</a> '    	
+					tekst=tekst+" <a href='https://ordnet.dk/ddo/ordbog?query="+guessedwords_sorted[i]+"' target='_blank' style='color:black;text-decoration:none;'>"+guessedwords_sorted[i]+'</a> '    	
 
 				}
 
@@ -650,10 +650,10 @@ function message(checkresult) {
 					    	var testword=wordsyesterday_sorted[i];
 					    	//Do something
 					    	if (wordsguessedyester.indexOf(testword)!=-1){
-					    		stringtext=stringtext+' '+"<a href='https://dsn.dk/soegning/?soegeord="+testword+"' target='_blank' style='color:#4CAF50;text-decoration:none;'>"+testword+'</a>';
+					    		stringtext=stringtext+' '+"<a href='https://ordnet.dk/ddo/ordbog?query="+testword+"' target='_blank' style='color:#4CAF50;text-decoration:none;'>"+testword+'</a>';
 					    	}
 					    	else{
-					    		stringtext=stringtext+' '+"<a href='https://dsn.dk/soegning/?soegeord="+testword+"' target='_blank' style='color:black;text-decoration:none;'>"+testword+'</a>';
+					    		stringtext=stringtext+' '+"<a href='https://ordnet.dk/ddo/ordbog?query="+testword+"' target='_blank' style='color:black;text-decoration:none;'>"+testword+'</a>';
 					    	}
 						}
 				}
@@ -693,10 +693,10 @@ function message(checkresult) {
 					    	var testword=wordsyesterday_sorted[i];
 					    	//Do something
 					    	if (wordsguessedyester.indexOf(testword)!=-1){
-					    		stringtext=stringtext+' '+"<a href='https://dsn.dk/soegning/?soegeord="+testword+"' target='_blank' style='color:#4CAF50;text-decoration:none;'>"+testword+'</a>';
+					    		stringtext=stringtext+' '+"<a href='https://ordnet.dk/ddo/ordbog?query="+testword+"' target='_blank' style='color:#4CAF50;text-decoration:none;'>"+testword+'</a>';
 					    	}
 					    	else{
-					    		stringtext=stringtext+' '+"<a href='https://dsn.dk/soegning/?soegeord="+testword+"' target='_blank' style='color:black;text-decoration:none;'>"+testword+'</a>';
+					    		stringtext=stringtext+' '+"<a href='https://ordnet.dk/ddo/ordbog?query="+testword+"' target='_blank' style='color:black;text-decoration:none;'>"+testword+'</a>';
 					    	}
 						}
 				}
